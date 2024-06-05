@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 
 const url =
   "mongodb+srv://dydgus0421:ZBMW7XcVE9b2RBHS@cluster0.7hat8d3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-const options = { useNewUrlParser: true };
+const options = {};
 let connectDB;
 
 if (process.env.NODE_ENV === "development") {
